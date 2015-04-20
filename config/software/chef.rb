@@ -22,10 +22,7 @@ relative_path "chef"
 
 if windows?
   dependency "ruby-windows"
-  dependency "libyaml-windows"
-  dependency "openssl-windows"
   dependency "ruby-windows-devkit"
-  dependency "ruby-windows-devkit-bash"
   dependency "cacerts"
   dependency "rubygems"
 else
